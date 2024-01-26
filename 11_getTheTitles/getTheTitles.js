@@ -1,4 +1,10 @@
-const getTheTitles = function() {
+const getTheTitles = function(books) {
+    titles = []
+    for (let b of books)
+    {
+        titles.push(b['title']);
+    }
+    return titles;
 
 };
 
